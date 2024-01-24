@@ -1,10 +1,10 @@
-package exercise;
+package abstraction_exercise;
 
-public class SearchTree implements NodeList{
+public class MyLinkedList implements NodeList{
 
     private ListItem root;
 
-    public SearchTree(ListItem root) {
+    public MyLinkedList(ListItem root) {
         this.root = root;
     }
 
@@ -15,6 +15,7 @@ public class SearchTree implements NodeList{
 
     @Override
     public boolean addItem(ListItem newItem) {
+
         if(this.root == null){// the list was empty so this item becomes the head of the list
             this.root = newItem;
             return true;
@@ -46,6 +47,7 @@ public class SearchTree implements NodeList{
         return false;
     }
 
+
     @Override
     public boolean removeItem(ListItem item) {
         if(item != null) {
@@ -75,14 +77,12 @@ public class SearchTree implements NodeList{
 
     @Override
     public void traverse(ListItem root) {
-        if (root != null) {
-            traverse(root.leftLink);
-            System.out.println(root.value);
-            traverse(root.rightLink);
+        if(root == null){
+            System.out.println("The list is empty");
         }
-    }
-
-    private void performRemoval(ListItem itemToRemove, ListItem root){
-
+        while (root != null) {
+            System.out.println(root.getValue());
+            root = root.next();
+        }
     }
 }

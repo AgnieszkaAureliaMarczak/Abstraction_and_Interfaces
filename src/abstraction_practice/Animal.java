@@ -1,4 +1,4 @@
-package practice;
+package abstraction_practice;
 
 abstract class Mammal extends Animal{
 

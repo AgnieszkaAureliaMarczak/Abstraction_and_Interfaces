@@ -1,4 +1,4 @@
-package challenge;
+package abstraction_challenge;
 
 public class Shirt extends ProductForSale{
     public Shirt(String type, double price, String description) {

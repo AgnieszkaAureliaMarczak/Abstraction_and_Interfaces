@@ -1,4 +1,4 @@
-package challenge;
+package abstraction_challenge;
 
 import java.util.ArrayList;
 

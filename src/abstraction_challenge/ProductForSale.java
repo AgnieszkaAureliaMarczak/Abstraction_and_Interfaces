@@ -1,4 +1,4 @@
-package challenge;
+package abstraction_challenge;
 
 public abstract class ProductForSale {
     protected String type;

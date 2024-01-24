@@ -1,4 +1,4 @@
-package practice;
+package abstraction_practice;
 
 public class Dog extends Mammal {
 

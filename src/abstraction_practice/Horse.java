@@ -1,4 +1,4 @@
-package practice;
+package abstraction_practice;
 
 public class Horse extends Mammal{
     public Horse(String type, String size, double weight) {

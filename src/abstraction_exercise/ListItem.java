@@ -1,4 +1,4 @@
-package exercise;
+package abstraction_exercise;
 
 public abstract class ListItem {
     protected ListItem rightLink = null;

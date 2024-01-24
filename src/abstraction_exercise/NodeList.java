@@ -1,4 +1,4 @@
-package exercise;
+package abstraction_exercise;
 
 interface NodeList {
     ListItem getRoot();
